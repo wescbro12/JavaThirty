@@ -1,0 +1,50 @@
+html {
+    font-size: 10px;
+    background: url('./Best-Professional-Drum-Kits-Available.jpg');
+    background-size: cover;
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana;
+}
+
+.keys {
+    display: flex;
+    min-height: 100vh;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.key {
+    border: .4rem solid rgb(26, 216, 213);
+    background: rgba(245, 245, 220, 0.324);
+    border-radius: .5rem;
+    font-size: 1.5rem;
+    width: 10rem;
+    text-align: center;
+    margin: 1rem;
+    padding: 1rem .5rem;
+    transition: all .07s ease;
+}
+
+kbd {
+    display: block;
+    font-size: 4rem;
+}
+
+.playing {
+    transform: scale(1.1);
+    border-color: blueviolet;
+    box-shadow: 0 0 1rem blueviolet;
+}
+
+.sound {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    color: black;
+}
